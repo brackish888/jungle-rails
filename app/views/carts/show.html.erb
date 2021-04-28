@@ -3,7 +3,7 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-
+    <%if cart_subtotal_cents > 0%>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +48,10 @@
       <% end %>
     </div>
   </div>
+  <% else %>
+  <div class="alert">You have yet to select anything and your cart is empty. <a href="/products"> Please add something to your cart </a> 
+  </div>
+
+  <% end %>
 
 </section>
