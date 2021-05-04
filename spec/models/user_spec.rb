@@ -31,5 +31,15 @@ RSpec.describe User, type: :model do
        }
        expect(User.new(params)).to_not be_valid
      end
-  end
-end
+
+    end 
+
+  describe '.authenticate_with_credentials' do
+    
+    it "checks the login and returns the authenticated user" do
+      user = User.create(name: "Blu Brackish", :email => "brackishblu@gmail.com", :password => "H3ll0", :password_confirmation => "H3ll0")
+        authenticated_user = User.authenticate_with_credentials("brackishblu@gmail.com", "H3ll0")
+          expect(authenticated_user).to eq(user)
+        end
+      end
+    end
