@@ -64,7 +64,6 @@ ActiveRecord::Schema.define(version: 20210503193251) do
     t.datetime "updated_at",      null: false
   end
 
-
   add_foreign_key "line_items", "orders"
   add_foreign_key "line_items", "products"
   add_foreign_key "products", "categories"
