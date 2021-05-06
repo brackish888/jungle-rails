@@ -31,3 +31,27 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 - PostgreSQL 9.x
 - Stripe
+- Capybara
+- Poltergeist
+
+## Screenshots
+
+![Home Page, add one to cart](https://github.com/brackish888/jungle-rails/blob/master/docs/AddOnetoCart.png?raw=true)
+
+![Home Page, add another to cart](https://github.com/brackish888/jungle-rails/blob/master/docs/AddTwotoCart.png?raw=true)
+
+![Admin Login prompt](https://github.com/brackish888/jungle-rails/blob/master/docs/AdminLoginPrompt.png?raw=true)
+
+![Admin Dashboard](https://github.com/brackish888/jungle-rails/blob/master/docs/AdminDash.png?raw=true)
+
+![Admin all products page](https://github.com/brackish888/jungle-rails/blob/master/docs/AdminAllProducts.png?raw=true)
+
+![Admin create new product form](https://github.com/brackish888/jungle-rails/blob/master/docs/AdminCreateNewProduct.png?raw=true)
+
+![Admin delete warning popup](https://github.com/brackish888/jungle-rails/blob/master/docs/AdminDeleteWarning.png?raw=true)
+
+![Admin all categories page](https://github.com/brackish888/jungle-rails/blob/master/docs/AdminCategories.png?raw=true)
+
+![Admin create new category form](https://github.com/brackish888/jungle-rails/blob/master/docs/AdminCreateCategory.png?raw=true)
+
+![Empty cart warning with a link to the homepage](https://github.com/brackish888/jungle-rails/blob/master/docs/CartEmptyWarning.png?raw=true)
